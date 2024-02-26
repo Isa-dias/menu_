@@ -1,14 +1,16 @@
 <!DOCTYPE hmtl>
  <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contagem regressiva</title>
-    <link href="style.css" rel="stylesheet">
  </head>
  <body>
-     <section class>
+     <h1>contagem regressiva</h1>
+     <section class="principal">
         <buttom id="blablabla">
+        <buttom id="bleble">bleble</buttom>   
+        <buttom id="blublu">blublu</buttom> 
+        <buttom id="blibli">blibli</buttom>
+
 
 
 
