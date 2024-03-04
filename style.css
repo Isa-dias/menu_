@@ -1,8 +1,8 @@
 :root{
     --cor_buttom_clica: rgb(39, 236, 49);
     --cor_buttom_click: rgb(157, 238, 157);
-    --cor_fundo: rgb(195, 224, 250);
-    --cor_titulo: rgb(226, 30, 210);
+    --cor_fundo: rgb(5, 33, 58);
+    --cor_titulo: rgb(236, 19, 218);
 
 }
 body{
@@ -14,28 +14,35 @@ h1{
     font-family: Arial, Helvetica, sans-serif;
 }
 .principal{
-    border: solid black 2px;
+/*   border: solid white 2px;
+  */   border-radius: 00%;
     text-align: center;
     height: 350px;
-    width: 350px;
-    border-radius: 10%;
+    display: flex;
+    flex-direction: row;
+     
 }
-button{
-    border-bottom: solid rgb(43, 226, 171) 2px;
-    border-radius: 5%;
-    color: rgb(0, 0, 0);
+.button{
+    height: 300px;
+    width: 20px;
+
 }
-@media only screen and (max-width:820px) {/*para deixar responsivo*/
-    body{
-        grid-template-areas: 
-        "cabe"
-        "prin"
-        "roda";
-        grid-template-columns: 1fr;/*indica tamanho das colunas*/
-        grid-template-rows: auto auto 200px;/*indica tamanho das linhas*/
-    }
- }
+.button:first-child{
+    border-radius: 30% 0 0 0;
+
+}
+.button:last-child{
+    border-radius: 0 30% 0 0;
+}
+
  main{
     text-align: center;
     margin-left: 41%;
  }
+ @media only screen and (max-width:820px) {/*para deixar responsivo*/
+    .principal
+ 
+
+}
+    
+ 
